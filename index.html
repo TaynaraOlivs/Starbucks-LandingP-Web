@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Starbucks Website Landing Page</title>
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#" class="logo"><img src="images/logo.png"></a>
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </header>
+
+        <div class="content">
+            <div class="textBox">
+                <h2>It's not just Coffee<br>Its's <span>Starbucks</span><h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique soluta, expedita hic minus dignissimos ducimus vitae iure quidem. Blanditiis enim ipsam saepe alias maiores quidem eos totam nisi sunt est.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div class="imgBox">
+                <img src="images/frappuccino-matcha.png" class="starbucks">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="images/frappuccino-matcha.png" onclick="imgSlider('images/frappuccino-matcha.png'); changeColor('#017143')"></li>
+            <li><img src="images/tea-coffee.png" onclick="imgSlider('images/tea-coffee.png'); changeColor('#eb7495')"></li>
+            <li><img src="images/coffee-unicorn.png" onclick="imgSlider('images/coffee-unicorn.png'); changeColor('#d752b1')"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="images/face.png"></a></li>
+            <li><a href="#"><img src="images/twit.png"></a></li>
+            <li><a href="#"><img src="images/insta.png"></a></li>
+        </ul>
+    </section>
+
+    <script src="interaction.js"></script>
+</body>
+</html>
